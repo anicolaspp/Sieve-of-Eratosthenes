@@ -1,6 +1,16 @@
 # Sieve-of-Eratosthenes
 Sieve of Eratosthenes implementation using pthreads in C
 
+```
+clone https://github.com/anicolaspp/Sieve-of-Eratosthenes.git
+
+make clean
+make
+
+./hw3 1000000 10 1000 -d
+```
+
+
 ## Objectives:
 This goal of this assignment is to practice pthread programming for the master/slave parallel computing paradigm.  
 
