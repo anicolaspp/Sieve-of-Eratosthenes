@@ -2,7 +2,7 @@
 Sieve of Eratosthenes implementation using pthreads in C
 
 ```
-clone https://github.com/anicolaspp/Sieve-of-Eratosthenes.git
+git clone https://github.com/anicolaspp/Sieve-of-Eratosthenes.git
 
 make clean
 make
