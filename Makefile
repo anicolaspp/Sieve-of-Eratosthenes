@@ -1,4 +1,4 @@
-CC = mpicc
+CC = cc
 
 
 SRC = main.c thread_pool.c
