@@ -20,9 +20,5 @@ The master and slave threads should communicate via conditional variables. The p
 
 You don't need to care too much about the terminating condition for the slaves. The master prints the result, exits the process by calling exit(0), in which case all slave threads would be terminated.
 
-Submission Instructions:
-Please submit your work through moodle as a gzipped tar file. Follow the instructions below carefully (to avoid unnecessary loss of grades):
 
-You should rename the directory where the program and the Makefile are located. Assuming your name is John Smith, you shall name your directory john-smith-hw3 (lower cases). Of course, you need to replace that with your true name. 
-Your submission should be a directory that contains only the source code (may it be as many source code files as needed), and the Makefile. Once done, you need to archive and compress the directory by running the following command *in the parent directory* (after you make sure you removed all unnecessary files): 'tar czvf firstname-lastname-hw3.tar.gz firstname-lastname-hw3'. This will create a file named firstname-lastname-hw3.tar.gz, which you should upload to moodle.
-Please make sure you submit homework before the given deadline. Late submission will incur penalties as specified in the syllabus. You must submit the homework through moodle. Email submission is ignored.
+
